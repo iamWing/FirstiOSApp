@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20C197EC1E44DC33000AE19D /* FirstDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C197EC1E44DC33000AE19D /* FirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C197EF1E44DC33000AE19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C197F11E44DC33000AE19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20C197F41E44DC33000AE19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20C197F61E44DC33000AE19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C197F91E44DC33000AE19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C197FB1E44DC33000AE19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C198001E44DC33000AE19D /* FirstDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C198001E44DC33000AE19D /* FirstiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C198041E44DC33000AE19D /* FirstDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDemoTests.swift; sourceTree = "<group>"; };
 		20C198061E44DC33000AE19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C1980B1E44DC33000AE19D /* FirstDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C1980B1E44DC33000AE19D /* FirstiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C1980F1E44DC33000AE19D /* FirstDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDemoUITests.swift; sourceTree = "<group>"; };
 		20C198111E44DC33000AE19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		20C197E31E44DC33000AE19D = {
 			isa = PBXGroup;
 			children = (
-				20C197EE1E44DC33000AE19D /* FirstDemo */,
-				20C198031E44DC33000AE19D /* FirstDemoTests */,
-				20C1980E1E44DC33000AE19D /* FirstDemoUITests */,
+				20C197EE1E44DC33000AE19D /* FirstiOSApp */,
+				20C198031E44DC33000AE19D /* FirstiOSAppTests */,
+				20C1980E1E44DC33000AE19D /* FirstiOSAppUITests */,
 				20C197ED1E44DC33000AE19D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		20C197ED1E44DC33000AE19D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C197EC1E44DC33000AE19D /* FirstDemo.app */,
-				20C198001E44DC33000AE19D /* FirstDemoTests.xctest */,
-				20C1980B1E44DC33000AE19D /* FirstDemoUITests.xctest */,
+				20C197EC1E44DC33000AE19D /* FirstiOSApp.app */,
+				20C198001E44DC33000AE19D /* FirstiOSAppTests.xctest */,
+				20C1980B1E44DC33000AE19D /* FirstiOSAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20C197EE1E44DC33000AE19D /* FirstDemo */ = {
+		20C197EE1E44DC33000AE19D /* FirstiOSApp */ = {
 			isa = PBXGroup;
 			children = (
 				20C197EF1E44DC33000AE19D /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				20C197F81E44DC33000AE19D /* LaunchScreen.storyboard */,
 				20C197FB1E44DC33000AE19D /* Info.plist */,
 			);
-			path = FirstDemo;
+			path = FirstiOSApp;
 			sourceTree = "<group>";
 		};
-		20C198031E44DC33000AE19D /* FirstDemoTests */ = {
+		20C198031E44DC33000AE19D /* FirstiOSAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				20C198041E44DC33000AE19D /* FirstDemoTests.swift */,
 				20C198061E44DC33000AE19D /* Info.plist */,
 			);
-			path = FirstDemoTests;
+			path = FirstiOSAppTests;
 			sourceTree = "<group>";
 		};
-		20C1980E1E44DC33000AE19D /* FirstDemoUITests */ = {
+		20C1980E1E44DC33000AE19D /* FirstiOSAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				20C1980F1E44DC33000AE19D /* FirstDemoUITests.swift */,
 				20C198111E44DC33000AE19D /* Info.plist */,
 			);
-			path = FirstDemoUITests;
+			path = FirstiOSAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20C197EB1E44DC33000AE19D /* FirstDemo */ = {
+		20C197EB1E44DC33000AE19D /* FirstiOSApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C198141E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemo" */;
+			buildConfigurationList = 20C198141E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSApp" */;
 			buildPhases = (
 				20C197E81E44DC33000AE19D /* Sources */,
 				20C197E91E44DC33000AE19D /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = FirstDemo;
+			name = FirstiOSApp;
 			productName = FirstDemo;
-			productReference = 20C197EC1E44DC33000AE19D /* FirstDemo.app */;
+			productReference = 20C197EC1E44DC33000AE19D /* FirstiOSApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20C197FF1E44DC33000AE19D /* FirstDemoTests */ = {
+		20C197FF1E44DC33000AE19D /* FirstiOSAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C198171E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemoTests" */;
+			buildConfigurationList = 20C198171E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSAppTests" */;
 			buildPhases = (
 				20C197FC1E44DC33000AE19D /* Sources */,
 				20C197FD1E44DC33000AE19D /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				20C198021E44DC33000AE19D /* PBXTargetDependency */,
 			);
-			name = FirstDemoTests;
+			name = FirstiOSAppTests;
 			productName = FirstDemoTests;
-			productReference = 20C198001E44DC33000AE19D /* FirstDemoTests.xctest */;
+			productReference = 20C198001E44DC33000AE19D /* FirstiOSAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		20C1980A1E44DC33000AE19D /* FirstDemoUITests */ = {
+		20C1980A1E44DC33000AE19D /* FirstiOSAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C1981A1E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemoUITests" */;
+			buildConfigurationList = 20C1981A1E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSAppUITests" */;
 			buildPhases = (
 				20C198071E44DC33000AE19D /* Sources */,
 				20C198081E44DC33000AE19D /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				20C1980D1E44DC33000AE19D /* PBXTargetDependency */,
 			);
-			name = FirstDemoUITests;
+			name = FirstiOSAppUITests;
 			productName = FirstDemoUITests;
-			productReference = 20C1980B1E44DC33000AE19D /* FirstDemoUITests.xctest */;
+			productReference = 20C1980B1E44DC33000AE19D /* FirstiOSAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20C197E71E44DC33000AE19D /* Build configuration list for PBXProject "FirstDemo" */;
+			buildConfigurationList = 20C197E71E44DC33000AE19D /* Build configuration list for PBXProject "FirstiOSApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20C197EB1E44DC33000AE19D /* FirstDemo */,
-				20C197FF1E44DC33000AE19D /* FirstDemoTests */,
-				20C1980A1E44DC33000AE19D /* FirstDemoUITests */,
+				20C197EB1E44DC33000AE19D /* FirstiOSApp */,
+				20C197FF1E44DC33000AE19D /* FirstiOSAppTests */,
+				20C1980A1E44DC33000AE19D /* FirstiOSAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		20C198021E44DC33000AE19D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20C197EB1E44DC33000AE19D /* FirstDemo */;
+			target = 20C197EB1E44DC33000AE19D /* FirstiOSApp */;
 			targetProxy = 20C198011E44DC33000AE19D /* PBXContainerItemProxy */;
 		};
 		20C1980D1E44DC33000AE19D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20C197EB1E44DC33000AE19D /* FirstDemo */;
+			target = 20C197EB1E44DC33000AE19D /* FirstiOSApp */;
 			targetProxy = 20C1980C1E44DC33000AE19D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FirstDemo/Info.plist;
+				INFOPLIST_FILE = FirstiOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FirstDemo/Info.plist;
+				INFOPLIST_FILE = FirstiOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstDemo.app/FirstDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstiOSApp.app/FirstiOSApp";
 			};
 			name = Debug;
 		};
@@ -456,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devtography.FirstDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstDemo.app/FirstDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstiOSApp.app/FirstiOSApp";
 			};
 			name = Release;
 		};
@@ -489,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C197E71E44DC33000AE19D /* Build configuration list for PBXProject "FirstDemo" */ = {
+		20C197E71E44DC33000AE19D /* Build configuration list for PBXProject "FirstiOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C198121E44DC33000AE19D /* Debug */,
@@ -498,29 +498,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C198141E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemo" */ = {
+		20C198141E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C198151E44DC33000AE19D /* Debug */,
 				20C198161E44DC33000AE19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		20C198171E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemoTests" */ = {
+		20C198171E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C198181E44DC33000AE19D /* Debug */,
 				20C198191E44DC33000AE19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		20C1981A1E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstDemoUITests" */ = {
+		20C1981A1E44DC33000AE19D /* Build configuration list for PBXNativeTarget "FirstiOSAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C1981B1E44DC33000AE19D /* Debug */,
 				20C1981C1E44DC33000AE19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
