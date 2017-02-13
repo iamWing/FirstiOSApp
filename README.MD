@@ -1,8 +1,8 @@
 ## About
 
-This is my first iOS application which keeps on adding stuffs as the lessons
-goes. This is a sample application only, nothing for real world production.
-
+This is my first iOS application which is a single view application.
+I keeps on adding stuffs as the lessons goes. Nothing for real world 
+production, sample only.
 ---
 
 ## Release Notes
