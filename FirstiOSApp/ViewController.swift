@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var button: UIButton!
+    private var labelState = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        messageLabel.text = "Behold oh master!"
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +26,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func doButtonTap(_ sender: Any) {
+        if labelState {
+            messageLabel.text = "Live long and prosper"
+        } else {
+            messageLabel.text = "May the force be with you"
+        }
+        
+        labelState = !labelState;
+        
+        button.setTitle("Ouch", for: .normal)
+    }
 }
 
