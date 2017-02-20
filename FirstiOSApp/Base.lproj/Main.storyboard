@@ -13,7 +13,7 @@
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstiOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have a message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-9d-ccS">
-                                <rect key="frame" x="141.33333333333337" y="124.00000000000001" width="131.66666666666663" height="20.333333333333357"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have a message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-9d-ccS">
+                                <rect key="frame" x="20" y="124" width="374" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 </variation>
                                 <connections>
-                                    <action selector="doButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FtE-30-05b"/>
+                                    <action selector="doButtonTap:" destination="BYZ-38-t0r" eventType="touchDown" id="Id7-f5-exG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-4b-R7O">
@@ -55,9 +55,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="eDm-sw-Hyb" secondAttribute="trailing" id="8UK-qw-RHZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NxI-9d-ccS" secondAttribute="trailing" id="Ee2-UY-wSM"/>
                             <constraint firstItem="hoN-4b-R7O" firstAttribute="top" secondItem="NxI-9d-ccS" secondAttribute="bottom" constant="40" id="J52-0y-tJJ"/>
                             <constraint firstItem="hoN-4b-R7O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KPh-XC-eKx"/>
                             <constraint firstItem="NxI-9d-ccS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RXG-5k-Ov8"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="NxI-9d-ccS" secondAttribute="leading" id="SyD-zO-5lb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eDm-sw-Hyb" secondAttribute="bottom" constant="20" id="qXp-8q-lBc"/>
                             <constraint firstItem="NxI-9d-ccS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="tiR-Dw-Apt"/>
                         </constraints>
